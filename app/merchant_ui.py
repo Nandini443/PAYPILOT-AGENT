@@ -105,6 +105,13 @@ def render_merchant_view(state: MerchantSessionState):
             st.markdown("### 📋 Growth Telemetry Analysis")
             for chat in reversed(state.chat_history):
                 ans = chat["response"]
+                evidence_raw = ans.get("evidence", {})
+                if isinstance(evidence_raw, dict):
+                    evidence_items = [f"<b>{k.replace('_', ' ').title()}:</b> {v}" for k, v in evidence_raw.items()]
+                    evidence_str = ", ".join(evidence_items)
+                else:
+                    evidence_str = str(evidence_raw)
+
                 st.markdown(
                     f"""
                     <div style="background: #F8FAFC; border: 1px solid #CBD5E1; border-radius: 10px; padding: 16px; margin-bottom: 20px;">
@@ -117,7 +124,7 @@ def render_merchant_view(state: MerchantSessionState):
 
                         <div style="background: #F0FDF4; border-left: 4px solid #10B981; padding: 12px; margin-bottom: 12px; border-radius: 0 6px 6px 0;">
                             <strong style="color: #166534; font-size: 14px;">📊 Evidence (Verified Database Metrics):</strong><br>
-                            <span style="color: #334155; font-size: 13px;">{', '.join([f'<b>{k.replace(\"_\", \" \").title()}:</b> {v}' for k, v in ans.get('evidence', {}).items()]) if isinstance(ans.get('evidence'), dict) else ans.get('evidence')}</span>
+                            <span style="color: #334155; font-size: 13px;">{evidence_str}</span>
                         </div>
 
                         <div style="margin-bottom: 12px;">

@@ -32,8 +32,9 @@ def render_checkout_flow(
                 unsafe_allow_html=True
             )
 
+        shipping_display = "FREE" if cart_summary.get("shipping_fee", 0.0) == 0 else f"₹{cart_summary.get('shipping_fee', 0.0):,.2f}"
         st.markdown(f"**Subtotal**: ₹{cart_summary.get('subtotal', 0):,.2f}")
-        st.markdown(f"**Delivery**: {'FREE' if cart_summary.get('shipping_fee') == 0 else f'₹{cart_summary.get(\"shipping_fee\"):,.2f}'}")
+        st.markdown(f"**Delivery**: {shipping_display}")
         st.markdown(f"**Estimated GST (Included)**: ₹{cart_summary.get('tax_amount', 0):,.2f}")
         
         st.markdown(
