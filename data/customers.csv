@@ -1,0 +1,301 @@
+customer_id,age_group,location,customer_segment,previous_orders,average_order_value
+CUST-0001,18-24,Mumbai,Budget Conscious,2,1660.48
+CUST-0002,35-44,Mumbai,Regular,3,4952.46
+CUST-0003,18-24,Bengaluru,Budget Conscious,5,3186.66
+CUST-0004,35-44,Hyderabad,Bargain Hunter,8,1284.97
+CUST-0005,35-44,Pune,High Value,13,26849.76
+CUST-0006,25-34,Chennai,Budget Conscious,3,1537.29
+CUST-0007,18-24,Kolkata,Bargain Hunter,6,2575.68
+CUST-0008,25-34,Ahmedabad,Regular,8,2394.0
+CUST-0009,35-44,Pune,Tech Enthusiast,17,9786.16
+CUST-0010,35-44,Hyderabad,High Value,15,28872.85
+CUST-0011,45-54,Mumbai,Regular,8,3389.87
+CUST-0012,18-24,Chennai,Budget Conscious,6,2081.03
+CUST-0013,25-34,Mumbai,Budget Conscious,6,2007.88
+CUST-0014,25-34,Ahmedabad,Regular,12,5440.81
+CUST-0015,35-44,Hyderabad,Bargain Hunter,2,1303.91
+CUST-0016,35-44,Bengaluru,Budget Conscious,1,1896.24
+CUST-0017,18-24,Chennai,Tech Enthusiast,18,18632.76
+CUST-0018,18-24,Ahmedabad,High Value,25,22552.39
+CUST-0019,45-54,Kolkata,Budget Conscious,2,4491.18
+CUST-0020,25-34,Delhi NCR,High Value,9,31249.78
+CUST-0021,25-34,Delhi NCR,Bargain Hunter,8,2112.1
+CUST-0022,25-34,Kolkata,Regular,10,3257.07
+CUST-0023,35-44,Bengaluru,High Value,25,28273.7
+CUST-0024,18-24,Chennai,Budget Conscious,4,1210.71
+CUST-0025,55+,Pune,Bargain Hunter,10,2807.78
+CUST-0026,35-44,Pune,Tech Enthusiast,7,6445.43
+CUST-0027,25-34,Delhi NCR,Bargain Hunter,10,2820.69
+CUST-0028,25-34,Chennai,High Value,19,31725.49
+CUST-0029,18-24,Pune,Budget Conscious,5,4324.93
+CUST-0030,35-44,Mumbai,Bargain Hunter,10,2484.84
+CUST-0031,35-44,Delhi NCR,Regular,4,3325.28
+CUST-0032,55+,Kolkata,Regular,5,5564.74
+CUST-0033,55+,Kolkata,Tech Enthusiast,11,18393.83
+CUST-0034,18-24,Ahmedabad,Budget Conscious,3,1269.41
+CUST-0035,25-34,Hyderabad,High Value,30,25039.78
+CUST-0036,18-24,Hyderabad,High Value,18,9913.15
+CUST-0037,25-34,Hyderabad,Tech Enthusiast,12,6116.99
+CUST-0038,18-24,Ahmedabad,Tech Enthusiast,10,7046.56
+CUST-0039,35-44,Mumbai,Budget Conscious,4,2741.18
+CUST-0040,35-44,Bengaluru,Regular,3,2303.06
+CUST-0041,35-44,Chennai,High Value,14,13135.64
+CUST-0042,18-24,Ahmedabad,Budget Conscious,4,2024.36
+CUST-0043,25-34,Mumbai,Regular,10,2489.54
+CUST-0044,55+,Bengaluru,Regular,5,2831.56
+CUST-0045,25-34,Ahmedabad,Regular,2,2823.19
+CUST-0046,55+,Bengaluru,Budget Conscious,4,2141.32
+CUST-0047,18-24,Ahmedabad,Budget Conscious,1,3111.29
+CUST-0048,35-44,Bengaluru,High Value,26,20873.29
+CUST-0049,18-24,Delhi NCR,Tech Enthusiast,17,6973.2
+CUST-0050,35-44,Mumbai,Budget Conscious,1,4307.27
+CUST-0051,25-34,Hyderabad,High Value,10,19319.07
+CUST-0052,45-54,Chennai,Budget Conscious,6,2236.81
+CUST-0053,25-34,Pune,Tech Enthusiast,8,11315.59
+CUST-0054,18-24,Mumbai,Tech Enthusiast,13,19937.54
+CUST-0055,25-34,Mumbai,Tech Enthusiast,6,18932.15
+CUST-0056,45-54,Mumbai,Budget Conscious,2,2646.01
+CUST-0057,25-34,Pune,Regular,12,4644.7
+CUST-0058,45-54,Pune,High Value,12,15140.58
+CUST-0059,35-44,Mumbai,Budget Conscious,3,3195.94
+CUST-0060,18-24,Chennai,Tech Enthusiast,8,12086.54
+CUST-0061,45-54,Pune,Bargain Hunter,3,2195.43
+CUST-0062,18-24,Pune,Budget Conscious,2,3302.47
+CUST-0063,18-24,Pune,Budget Conscious,6,2611.37
+CUST-0064,18-24,Bengaluru,Regular,4,4727.95
+CUST-0065,25-34,Chennai,High Value,12,9129.38
+CUST-0066,45-54,Chennai,Bargain Hunter,2,2777.63
+CUST-0067,35-44,Hyderabad,Tech Enthusiast,9,16481.86
+CUST-0068,55+,Kolkata,Bargain Hunter,5,2702.13
+CUST-0069,45-54,Delhi NCR,High Value,18,29124.44
+CUST-0070,35-44,Kolkata,Regular,5,3334.03
+CUST-0071,25-34,Mumbai,High Value,23,14005.71
+CUST-0072,25-34,Ahmedabad,Bargain Hunter,5,1290.43
+CUST-0073,25-34,Hyderabad,Budget Conscious,1,4390.73
+CUST-0074,25-34,Pune,Tech Enthusiast,14,19698.39
+CUST-0075,45-54,Chennai,High Value,16,12821.33
+CUST-0076,18-24,Pune,Tech Enthusiast,9,15656.72
+CUST-0077,25-34,Chennai,Regular,3,3925.98
+CUST-0078,25-34,Hyderabad,Bargain Hunter,2,1943.82
+CUST-0079,25-34,Hyderabad,High Value,29,32860.81
+CUST-0080,35-44,Chennai,High Value,17,21692.31
+CUST-0081,25-34,Kolkata,Tech Enthusiast,12,6036.6
+CUST-0082,35-44,Kolkata,Budget Conscious,6,4179.26
+CUST-0083,25-34,Pune,Bargain Hunter,6,1431.21
+CUST-0084,35-44,Kolkata,Tech Enthusiast,9,11439.81
+CUST-0085,35-44,Ahmedabad,Tech Enthusiast,16,18418.89
+CUST-0086,35-44,Delhi NCR,Budget Conscious,6,3288.7
+CUST-0087,18-24,Chennai,Regular,5,5363.98
+CUST-0088,35-44,Hyderabad,High Value,9,14610.75
+CUST-0089,25-34,Ahmedabad,Bargain Hunter,9,1711.77
+CUST-0090,35-44,Hyderabad,Budget Conscious,4,2005.15
+CUST-0091,45-54,Bengaluru,Regular,3,5892.1
+CUST-0092,18-24,Hyderabad,Regular,10,4322.75
+CUST-0093,45-54,Hyderabad,High Value,12,29638.25
+CUST-0094,55+,Chennai,Regular,11,6075.03
+CUST-0095,35-44,Kolkata,Tech Enthusiast,18,6546.53
+CUST-0096,25-34,Ahmedabad,Bargain Hunter,6,2484.79
+CUST-0097,25-34,Ahmedabad,Budget Conscious,1,3554.7
+CUST-0098,25-34,Hyderabad,Budget Conscious,5,1465.91
+CUST-0099,18-24,Delhi NCR,Tech Enthusiast,15,7423.25
+CUST-0100,25-34,Kolkata,Tech Enthusiast,10,4996.25
+CUST-0101,25-34,Kolkata,Bargain Hunter,2,2684.81
+CUST-0102,25-34,Kolkata,Regular,6,5767.38
+CUST-0103,25-34,Kolkata,Bargain Hunter,5,1874.1
+CUST-0104,25-34,Pune,High Value,18,26059.59
+CUST-0105,35-44,Kolkata,Bargain Hunter,4,2957.59
+CUST-0106,45-54,Bengaluru,Tech Enthusiast,14,4433.63
+CUST-0107,18-24,Kolkata,Tech Enthusiast,4,8162.5
+CUST-0108,18-24,Chennai,Budget Conscious,4,2118.25
+CUST-0109,25-34,Kolkata,High Value,8,28223.66
+CUST-0110,55+,Bengaluru,Budget Conscious,6,1426.44
+CUST-0111,35-44,Bengaluru,Regular,5,6196.14
+CUST-0112,18-24,Delhi NCR,Tech Enthusiast,5,13023.51
+CUST-0113,25-34,Hyderabad,Budget Conscious,3,1753.7
+CUST-0114,35-44,Mumbai,Budget Conscious,3,1556.73
+CUST-0115,45-54,Bengaluru,Tech Enthusiast,18,19330.77
+CUST-0116,45-54,Kolkata,Budget Conscious,5,3479.03
+CUST-0117,18-24,Hyderabad,Bargain Hunter,3,2551.7
+CUST-0118,25-34,Bengaluru,Budget Conscious,3,1427.56
+CUST-0119,18-24,Chennai,Budget Conscious,4,1548.28
+CUST-0120,25-34,Chennai,Bargain Hunter,4,1758.07
+CUST-0121,25-34,Pune,Regular,9,4324.37
+CUST-0122,25-34,Pune,Budget Conscious,1,2120.46
+CUST-0123,18-24,Ahmedabad,Tech Enthusiast,13,14691.02
+CUST-0124,18-24,Chennai,Regular,4,4437.75
+CUST-0125,35-44,Chennai,Budget Conscious,5,3513.91
+CUST-0126,25-34,Pune,Tech Enthusiast,7,5369.81
+CUST-0127,25-34,Kolkata,Bargain Hunter,9,2220.99
+CUST-0128,25-34,Ahmedabad,High Value,17,13983.1
+CUST-0129,25-34,Hyderabad,Tech Enthusiast,11,12855.57
+CUST-0130,25-34,Chennai,Bargain Hunter,7,1573.98
+CUST-0131,25-34,Ahmedabad,Budget Conscious,1,3580.24
+CUST-0132,18-24,Chennai,Tech Enthusiast,16,15042.62
+CUST-0133,18-24,Hyderabad,Tech Enthusiast,15,13433.39
+CUST-0134,55+,Pune,Bargain Hunter,6,1300.46
+CUST-0135,25-34,Delhi NCR,Bargain Hunter,4,1403.48
+CUST-0136,25-34,Bengaluru,Tech Enthusiast,6,14205.91
+CUST-0137,18-24,Ahmedabad,High Value,17,20673.72
+CUST-0138,25-34,Ahmedabad,Regular,6,6705.32
+CUST-0139,18-24,Ahmedabad,High Value,23,10000.22
+CUST-0140,18-24,Bengaluru,Bargain Hunter,6,987.4
+CUST-0141,18-24,Hyderabad,Bargain Hunter,5,2506.53
+CUST-0142,25-34,Kolkata,Budget Conscious,5,4467.1
+CUST-0143,25-34,Pune,High Value,11,33584.94
+CUST-0144,25-34,Hyderabad,Budget Conscious,1,1718.29
+CUST-0145,25-34,Delhi NCR,Budget Conscious,4,2686.66
+CUST-0146,25-34,Ahmedabad,Budget Conscious,6,2132.97
+CUST-0147,18-24,Ahmedabad,Budget Conscious,3,3799.83
+CUST-0148,25-34,Hyderabad,Tech Enthusiast,14,6383.83
+CUST-0149,35-44,Pune,High Value,13,29400.97
+CUST-0150,25-34,Pune,Tech Enthusiast,8,15195.74
+CUST-0151,25-34,Pune,Tech Enthusiast,5,13568.59
+CUST-0152,35-44,Kolkata,Tech Enthusiast,4,5461.23
+CUST-0153,55+,Bengaluru,Tech Enthusiast,8,13219.95
+CUST-0154,25-34,Delhi NCR,Tech Enthusiast,18,8450.51
+CUST-0155,25-34,Kolkata,Tech Enthusiast,5,11520.17
+CUST-0156,25-34,Kolkata,Tech Enthusiast,17,6573.2
+CUST-0157,35-44,Kolkata,Budget Conscious,4,3884.77
+CUST-0158,25-34,Bengaluru,Budget Conscious,3,1582.54
+CUST-0159,45-54,Kolkata,Bargain Hunter,2,2246.85
+CUST-0160,25-34,Ahmedabad,Budget Conscious,3,3254.69
+CUST-0161,25-34,Ahmedabad,Bargain Hunter,5,1387.52
+CUST-0162,45-54,Delhi NCR,Budget Conscious,6,2799.55
+CUST-0163,55+,Bengaluru,Tech Enthusiast,7,15356.53
+CUST-0164,25-34,Pune,Tech Enthusiast,5,7595.21
+CUST-0165,25-34,Mumbai,High Value,12,21456.14
+CUST-0166,25-34,Pune,Budget Conscious,4,4434.81
+CUST-0167,25-34,Hyderabad,High Value,14,32890.44
+CUST-0168,45-54,Delhi NCR,Budget Conscious,4,2321.59
+CUST-0169,35-44,Pune,Budget Conscious,3,3963.67
+CUST-0170,45-54,Ahmedabad,Budget Conscious,4,2338.91
+CUST-0171,25-34,Kolkata,Budget Conscious,2,4436.56
+CUST-0172,25-34,Hyderabad,Budget Conscious,4,1344.04
+CUST-0173,35-44,Ahmedabad,Bargain Hunter,8,2974.51
+CUST-0174,25-34,Delhi NCR,High Value,24,34064.55
+CUST-0175,45-54,Chennai,Regular,9,2498.56
+CUST-0176,18-24,Ahmedabad,High Value,28,34188.83
+CUST-0177,25-34,Mumbai,Regular,7,5116.3
+CUST-0178,25-34,Kolkata,Regular,12,6296.71
+CUST-0179,55+,Kolkata,Tech Enthusiast,18,16150.43
+CUST-0180,25-34,Bengaluru,Budget Conscious,6,4239.07
+CUST-0181,35-44,Hyderabad,Budget Conscious,1,3709.22
+CUST-0182,25-34,Mumbai,Tech Enthusiast,18,4463.16
+CUST-0183,35-44,Chennai,Budget Conscious,3,2621.27
+CUST-0184,25-34,Hyderabad,Tech Enthusiast,16,6880.91
+CUST-0185,18-24,Delhi NCR,Regular,11,5415.67
+CUST-0186,45-54,Ahmedabad,High Value,22,25223.43
+CUST-0187,25-34,Ahmedabad,High Value,22,32332.65
+CUST-0188,18-24,Delhi NCR,Regular,11,3495.77
+CUST-0189,35-44,Kolkata,Tech Enthusiast,8,7187.47
+CUST-0190,45-54,Kolkata,High Value,20,23441.91
+CUST-0191,55+,Pune,Budget Conscious,6,2506.16
+CUST-0192,25-34,Bengaluru,Tech Enthusiast,15,19577.65
+CUST-0193,35-44,Ahmedabad,Regular,5,5035.32
+CUST-0194,18-24,Chennai,Budget Conscious,3,3436.62
+CUST-0195,25-34,Delhi NCR,Regular,12,2197.11
+CUST-0196,18-24,Ahmedabad,Budget Conscious,2,1497.44
+CUST-0197,25-34,Pune,Budget Conscious,2,1636.13
+CUST-0198,25-34,Chennai,Regular,4,3284.85
+CUST-0199,55+,Ahmedabad,Budget Conscious,3,3853.97
+CUST-0200,55+,Ahmedabad,High Value,15,31223.8
+CUST-0201,55+,Kolkata,Bargain Hunter,7,998.67
+CUST-0202,18-24,Kolkata,Tech Enthusiast,11,9897.37
+CUST-0203,25-34,Pune,Bargain Hunter,7,1038.36
+CUST-0204,25-34,Hyderabad,Tech Enthusiast,12,9248.1
+CUST-0205,25-34,Hyderabad,Tech Enthusiast,11,18550.2
+CUST-0206,25-34,Pune,High Value,9,33549.06
+CUST-0207,55+,Pune,High Value,15,31956.0
+CUST-0208,25-34,Delhi NCR,Budget Conscious,6,3498.4
+CUST-0209,25-34,Kolkata,Bargain Hunter,8,2240.83
+CUST-0210,25-34,Ahmedabad,Regular,6,2163.58
+CUST-0211,18-24,Chennai,Budget Conscious,2,4022.99
+CUST-0212,55+,Mumbai,Budget Conscious,6,2383.62
+CUST-0213,25-34,Kolkata,Regular,9,2458.37
+CUST-0214,25-34,Hyderabad,Tech Enthusiast,4,4809.26
+CUST-0215,18-24,Chennai,High Value,26,13540.55
+CUST-0216,25-34,Hyderabad,Bargain Hunter,5,1522.83
+CUST-0217,35-44,Delhi NCR,Tech Enthusiast,8,17734.5
+CUST-0218,55+,Delhi NCR,Tech Enthusiast,16,6791.95
+CUST-0219,18-24,Bengaluru,Budget Conscious,2,3143.21
+CUST-0220,18-24,Bengaluru,High Value,21,22204.31
+CUST-0221,25-34,Mumbai,Bargain Hunter,10,2106.07
+CUST-0222,25-34,Ahmedabad,Regular,2,5636.21
+CUST-0223,25-34,Pune,Regular,2,6992.93
+CUST-0224,25-34,Kolkata,High Value,30,32561.92
+CUST-0225,45-54,Mumbai,Budget Conscious,2,1416.75
+CUST-0226,25-34,Pune,Tech Enthusiast,15,9202.97
+CUST-0227,25-34,Pune,Tech Enthusiast,5,16689.54
+CUST-0228,45-54,Mumbai,Tech Enthusiast,16,12821.36
+CUST-0229,25-34,Hyderabad,Regular,8,3694.66
+CUST-0230,25-34,Ahmedabad,Bargain Hunter,7,1738.88
+CUST-0231,25-34,Pune,Budget Conscious,4,1421.54
+CUST-0232,18-24,Mumbai,High Value,19,29917.77
+CUST-0233,25-34,Bengaluru,Tech Enthusiast,9,14720.21
+CUST-0234,25-34,Kolkata,Tech Enthusiast,16,10766.99
+CUST-0235,55+,Bengaluru,Tech Enthusiast,9,5657.61
+CUST-0236,18-24,Hyderabad,Tech Enthusiast,17,5731.49
+CUST-0237,18-24,Chennai,Budget Conscious,2,3863.83
+CUST-0238,25-34,Bengaluru,Tech Enthusiast,15,8279.16
+CUST-0239,25-34,Delhi NCR,Bargain Hunter,7,1572.25
+CUST-0240,45-54,Delhi NCR,Tech Enthusiast,10,5113.37
+CUST-0241,18-24,Bengaluru,Tech Enthusiast,10,10717.32
+CUST-0242,18-24,Chennai,Budget Conscious,3,3763.56
+CUST-0243,45-54,Mumbai,Budget Conscious,5,1364.22
+CUST-0244,25-34,Mumbai,Tech Enthusiast,11,13713.22
+CUST-0245,25-34,Kolkata,Bargain Hunter,3,1559.38
+CUST-0246,25-34,Mumbai,Tech Enthusiast,11,12430.95
+CUST-0247,18-24,Pune,Budget Conscious,5,1380.78
+CUST-0248,25-34,Hyderabad,Budget Conscious,2,3721.73
+CUST-0249,25-34,Pune,High Value,21,12743.76
+CUST-0250,25-34,Kolkata,Budget Conscious,5,3950.07
+CUST-0251,18-24,Chennai,Regular,2,4181.1
+CUST-0252,45-54,Ahmedabad,Regular,11,4146.42
+CUST-0253,35-44,Kolkata,Budget Conscious,1,2536.61
+CUST-0254,18-24,Chennai,Regular,9,6160.13
+CUST-0255,18-24,Chennai,Bargain Hunter,5,1758.49
+CUST-0256,25-34,Kolkata,Budget Conscious,3,3661.16
+CUST-0257,25-34,Hyderabad,Budget Conscious,5,3289.64
+CUST-0258,45-54,Hyderabad,Budget Conscious,6,4362.14
+CUST-0259,18-24,Delhi NCR,High Value,14,12684.47
+CUST-0260,35-44,Delhi NCR,Tech Enthusiast,6,19220.67
+CUST-0261,25-34,Ahmedabad,Tech Enthusiast,13,11182.48
+CUST-0262,45-54,Chennai,Tech Enthusiast,6,11036.21
+CUST-0263,25-34,Ahmedabad,Budget Conscious,3,3151.69
+CUST-0264,25-34,Chennai,Budget Conscious,4,1324.1
+CUST-0265,35-44,Chennai,High Value,10,24605.23
+CUST-0266,25-34,Kolkata,Tech Enthusiast,16,15822.74
+CUST-0267,25-34,Bengaluru,Bargain Hunter,5,1507.36
+CUST-0268,25-34,Ahmedabad,Regular,9,2517.51
+CUST-0269,55+,Chennai,High Value,28,12659.09
+CUST-0270,35-44,Hyderabad,Regular,10,4613.74
+CUST-0271,25-34,Delhi NCR,Regular,8,4043.85
+CUST-0272,35-44,Chennai,High Value,28,25477.24
+CUST-0273,25-34,Mumbai,Tech Enthusiast,10,8546.35
+CUST-0274,25-34,Delhi NCR,Tech Enthusiast,6,18667.94
+CUST-0275,55+,Pune,Tech Enthusiast,10,6063.23
+CUST-0276,25-34,Mumbai,Budget Conscious,3,3883.51
+CUST-0277,25-34,Mumbai,Budget Conscious,3,1260.16
+CUST-0278,18-24,Pune,Budget Conscious,4,1833.62
+CUST-0279,18-24,Delhi NCR,Budget Conscious,1,2875.38
+CUST-0280,35-44,Bengaluru,Regular,11,2655.25
+CUST-0281,18-24,Kolkata,Budget Conscious,6,3744.62
+CUST-0282,35-44,Delhi NCR,High Value,19,26261.8
+CUST-0283,55+,Hyderabad,Tech Enthusiast,16,15976.58
+CUST-0284,18-24,Ahmedabad,Budget Conscious,4,4183.12
+CUST-0285,25-34,Hyderabad,Regular,9,4308.4
+CUST-0286,35-44,Pune,Tech Enthusiast,10,19460.29
+CUST-0287,35-44,Hyderabad,High Value,16,9408.85
+CUST-0288,45-54,Ahmedabad,Tech Enthusiast,5,15382.42
+CUST-0289,25-34,Mumbai,Bargain Hunter,6,1788.5
+CUST-0290,35-44,Delhi NCR,High Value,15,30050.99
+CUST-0291,45-54,Chennai,Budget Conscious,4,2856.62
+CUST-0292,25-34,Hyderabad,High Value,15,8761.06
+CUST-0293,35-44,Mumbai,Tech Enthusiast,16,6336.79
+CUST-0294,25-34,Bengaluru,Bargain Hunter,4,2469.45
+CUST-0295,25-34,Ahmedabad,High Value,10,8513.1
+CUST-0296,35-44,Hyderabad,Tech Enthusiast,15,13742.08
+CUST-0297,18-24,Kolkata,Budget Conscious,3,1602.1
+CUST-0298,25-34,Hyderabad,Bargain Hunter,9,938.18
+CUST-0299,25-34,Ahmedabad,High Value,24,23526.28
+CUST-0300,25-34,Delhi NCR,High Value,19,14495.23
