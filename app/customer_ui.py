@@ -29,23 +29,36 @@ def render_customer_view(state: CustomerSessionState):
         unsafe_allow_html=True
     )
 
-    # Example Prompts
+    # Example Prompts — covers all 6 product categories
     st.markdown("##### 💡 Try Example Prompts:")
-    col_p1, col_p2, col_p3, col_p4 = st.columns(4)
+    row1_c1, row1_c2, row1_c3, row1_c4 = st.columns(4)
+    row2_c1, row2_c2, row2_c3, row2_c4 = st.columns(4)
     
     selected_prompt = None
-    with col_p1:
-        if st.button("🎧 Wireless headphones under ₹5,000 with good battery", use_container_width=True):
-            selected_prompt = "I need wireless headphones under ₹5,000 with good reviews and good battery life."
-    with col_p2:
+    with row1_c1:
+        if st.button("🎧 Wireless headphones under ₹5,000", use_container_width=True):
+            selected_prompt = "I need wireless headphones under ₹5,000 with good battery life."
+    with row1_c2:
         if st.button("💻 Laptop for coding under ₹60,000", use_container_width=True):
             selected_prompt = "I need a laptop for coding under ₹60,000."
-    with col_p3:
-        if st.button("👟 Running shoes under ₹4,000", use_container_width=True):
-            selected_prompt = "Find running shoes under ₹4,000."
-    with col_p4:
+    with row1_c3:
         if st.button("📱 Best phones under ₹25,000", use_container_width=True):
             selected_prompt = "Compare the best phones under ₹25,000."
+    with row1_c4:
+        if st.button("⌚ Smartwatch with AMOLED display", use_container_width=True):
+            selected_prompt = "Find a smartwatch with AMOLED display and good battery."
+    with row2_c1:
+        if st.button("👟 Running shoes under ₹4,000", use_container_width=True):
+            selected_prompt = "Find running shoes under ₹4,000 with cushioning."
+    with row2_c2:
+        if st.button("🖱️ Keyboard & mouse for work", use_container_width=True):
+            selected_prompt = "I need a wireless mouse and mechanical keyboard for office."
+    with row2_c3:
+        if st.button("🔋 Power bank for laptop charging", use_container_width=True):
+            selected_prompt = "Find a power bank that can charge laptops."
+    with row2_c4:
+        if st.button("🛒 Browse All Products", use_container_width=True):
+            selected_prompt = "Show me all products across every category."
 
     # Search Bar
     user_input = st.text_input(

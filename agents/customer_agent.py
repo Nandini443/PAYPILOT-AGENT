@@ -52,14 +52,21 @@ class CustomerShoppingAgent:
             category=intent.category,
             max_price=intent.budget,
             min_rating=intent.min_rating,
-            limit=12
+            limit=15
         )
 
-        # Fallback broad search if zero results found
+        # Fallback: try progressively broader searches
         if not raw_candidates and intent.category:
-            raw_candidates = self.product_tools.search_products(query="", category=intent.category, limit=8)
-        elif not raw_candidates:
-            raw_candidates = self.product_tools.search_products(query="", limit=8)
+            # Try category-only search (drop price/rating filters)
+            raw_candidates = self.product_tools.search_products(query="", category=intent.category, limit=10)
+        
+        if not raw_candidates and intent.budget:
+            # Try budget-only search across all categories
+            raw_candidates = self.product_tools.search_products(query=intent.raw_query, max_price=intent.budget, limit=10)
+        
+        if not raw_candidates:
+            # Final fallback: browse all products
+            raw_candidates = self.product_tools.search_products(query="", limit=15)
 
         # Step 4: Rank Products
         ranked_products = self.product_tools.rank_products(
@@ -67,7 +74,7 @@ class CustomerShoppingAgent:
             user_intent=intent.model_dump()
         )
 
-        top_candidates = ranked_products[:3] if ranked_products else []
+        top_candidates = ranked_products[:6] if ranked_products else []
         best_pick = top_candidates[0] if top_candidates else None
 
         state.recommended_products = top_candidates
