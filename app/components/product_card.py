@@ -75,7 +75,14 @@ def render_product_card(
 
         col_img, col_details = st.columns([1, 2])
         with col_img:
-            st.image(image_url, use_column_width=True)
+            try:
+                st.image(image_url, use_container_width=True)
+            except Exception:
+                st.markdown(
+                    f"""<div style="background: #F1F5F9; border-radius: 8px; padding: 40px 10px;
+                    text-align: center; color: #94A3B8; font-size: 32px;">📦</div>""",
+                    unsafe_allow_html=True
+                )
 
         with col_details:
             st.markdown(
