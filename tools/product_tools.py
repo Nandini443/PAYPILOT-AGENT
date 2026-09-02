@@ -118,8 +118,9 @@ class ProductTools:
         Generates human-readable decision reasons.
         """
         budget = user_intent.get("budget")
-        preferences = [p.lower() for p in user_intent.get("preferences", [])]
-        category = user_intent.get("category", "").lower()
+        raw_prefs = user_intent.get("preferences") or []
+        preferences = [str(p).lower() for p in raw_prefs]
+        category = (user_intent.get("category") or "").lower()
 
         ranked = []
         for p in products:
